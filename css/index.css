@@ -1,0 +1,392 @@
+	/*对大广告的处理*/
+	#fs .ads{
+		width: 800px;
+		height: 500px;
+
+	}
+	#fs .ads{
+		margin-left: 10px;
+		/*overflow: hidden;*/
+	}
+	#fs .ads .slider{
+		width: 790px;
+		height: 340px;
+		overflow: hidden;
+		position: relative;
+
+	}
+	#fs .ads .slider .indicator{
+		width: 180px;
+		height: 20px;
+		border-radius: 6px;
+		background-color: rgba(255,255,255,0.2);
+		position: absolute;
+		left: 300px;
+		top: 290px;
+		z-index: 50;
+
+
+	}
+	#fs .ads .slider .indicator li{
+		float: left;
+		width: 12px;
+		height: 12px;
+		border-radius: 6px;
+		background-color: white;
+		margin: 3px 5px;
+		cursor: pointer;
+	}
+	#fs .ads .slider .indicator li.cr{
+		background-color: red;
+	}
+	#fs .ads .slider ul{
+		width: 800%;
+		overflow: hidden;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	#fs .ads .slider ul li{
+		float: left;
+	}
+	#fs .ads>img{
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	#fs .ads .slider  p{
+		width: 30px;
+		height: 50px;
+		background-color: rgba(0,0,0,0.3);
+		position: absolute;
+		left: 0;
+		top:50%;
+		margin-top: -25px;
+		text-align: center;
+		line-height: 50px;
+		font-size: 20px;
+		color: white;
+		z-index: 50;
+		cursor: pointer;
+	}
+
+	#fs .ads .slider div{
+		width: 30px;
+		height: 50px;
+		background-color: rgba(0,0,0,0.3);
+		position: absolute;
+		right: 0;
+		top:50%;
+		margin-top: -25px;
+		text-align: center;
+		line-height: 50px;
+		font-size: 20px;
+		color: white;
+		z-index: 50;
+		cursor: pointer;
+
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+	/*对登录的处理*/
+	#fs .w .user{
+		height: 472px;
+		width: 190px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		overflow: hidden;
+	}
+	#fs .w .user .hi{
+		overflow: hidden;
+	}
+	#fs .w .user .hi .register{
+		font-size: 13px;
+		width: 120px;
+		margin-top: 15px;
+		margin-left: 10px;
+	}
+	#fs .w .user .hi img{
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
+		margin-top: 10px;
+		margin-left: 10px;
+
+	}
+	#fs .w .user .hi ul {
+		margin-top: 10px;
+		overflow: hidden;
+		margin-left: 20px;
+	}
+	#fs .w .user .hi ul li{
+		float: left;
+		margin-right: 5px;
+
+	}
+	#fs .w .user .hi ul li a{
+		display: block;
+		width: 70px;
+		height: 20px;
+		font-size: 13px;
+		text-align: center;
+		line-height: 20px;
+		color: #e01222;
+		border: 2px solid #e01222;
+	}
+	#fs .w .user .hi ul li a:hover{
+		color: white;
+		background-color: #e01222;
+	}
+				/*对公告的处理*/
+	#fs .w .user .notice{
+		position: relative;
+		margin-left: 10px;
+	}
+	#fs .w .user .notice ul.sale{
+		overflow: hidden;
+		border-width: 1px 0 1px 0;
+		border-style: solid;
+		border-color: #ccc;
+		margin-top: 15px;
+	}
+	#fs .w .user .notice ul.sale li{
+		float: left;
+		padding: 5px 10px;
+	}
+	#fs .w .user .notice ul.sale li.promote{
+		border-right: 1px solid #ccc;
+	}
+	#fs .w .user .notice ul.sale li.very{
+		margin-left: 30px;
+	}
+	#fs .w .user .notice ul.sale li p{
+		font-size: 14px;
+		height: 20px;
+		text-align: center;
+		line-height: 20px;
+		
+	}
+	#fs .w .user .notice>p{
+		width: 30px;
+		height: 2px;
+		background-color: #e01222;
+		position: absolute;
+		top: 30px;
+		left: 10px;
+	}
+	#fs .w .user .notice ul.home{
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	#fs .w .user .notice ul.home li a{
+		font-size: 12px;
+		line-height: 20px;
+
+	}
+	#fs .w .user .notice ul.notice-hid{
+		position: absolute;
+		top:35px;
+		left: 0px;
+		background-color: white;
+		padding: 10px;
+		display: none;
+
+	}
+
+	#fs .w .user .notice ul.notice-hid li a{
+		font-size: 12px;
+		line-height: 20px;
+	}
+			/*对机票酒店的处理*/
+	#fs .w .user .plane{
+		position: relative;
+		height: 350px;
+	}
+	#fs .w .user .plane>ul{
+		overflow: hidden;
+		margin-top: 20px;
+	}
+	#fs .w .user .plane>ul li{
+		float: left;
+		border: 1px solid #ccc;
+		width: 45px;
+		height: 69px;
+		text-align: center;
+	}
+	#fs .w .user .plane>ul li a{
+		font-size: 13px;
+
+	}
+	#fs .w .user .plane>ul li p{
+		margin:15px auto 5px auto;
+	}
+	#fs .w .user .plane ul li .p1{
+		background-image: url("../images/sprite_fs@1x.png");
+		width: 20px;
+		height: 23px;
+		background-position: -2px 0;
+
+	}
+	#fs .w .user .plane ul li .p2{
+		background-image: url("../images/sprite_fs@1x.png");
+		width: 20px;
+		height: 23px;
+		background-position: -45px 0;
+
+	}
+	#fs .w .user .plane ul li .p3{
+		background-image: url("../images/sprite_fs@1x.png");
+		width: 26px;
+		height: 23px;
+		background-position: -87px 0;
+
+	}
+	#fs .w .user .plane ul li .p4{
+		background-image: url("../images/sprite_fs@1x.png");
+		width: 20px;
+		height: 23px;
+		background-position: -134px 0;
+
+	}
+	#fs .w .user .plane ul li .p5{
+		background-image: url("../images/sprite_fs@1x.png");
+		width: 20px;
+		height: 23px;
+		background-position: -2px -44px;
+
+	}
+	#fs .w .user .plane ul li .p6{
+		background-image: url("../images/sprite_fs@1x.png");
+		width: 22px;
+		height: 23px;
+		background-position: -45px -44px;
+
+	}
+	#fs .w .user .plane ul li .p7{
+		background-image: url("../images/sprite_fs@1x.png");
+		width: 22px;
+		height: 23px;
+		background-position: -89px -44px;
+
+	}
+	#fs .w .user .plane ul li .p8{
+		background-image: url("../images/sprite_fs@1x.png");
+		width: 22px;
+		height: 23px;
+		background-position: -135px -45px;
+
+	}
+	#fs .w .user .plane ul li .p9{
+		background-image: url("../images/sprite_fs@1x.png");
+		width: 20px;
+		height: 22px;
+		background-position: -2px -89px;
+
+	}
+	#fs .w .user .plane ul li .p10{
+		background-image: url("../images/sprite_fs@1x.png");
+		width: 20px;
+		height: 22px;
+		background-position: -46px -89px;
+
+	}
+	#fs .w .user .plane ul li .p11{
+		background-image: url("../images/sprite_fs@1x.png");
+		width: 20px;
+		height: 22px;
+		background-position: -90px -89px;
+
+	}
+	#fs .w .user .plane ul li .p12{
+		background-image: url("../images/sprite_fs@1x.png");
+		width: 24px;
+		height: 22px;
+		background-position: -132px -89px;
+
+	}
+	#fs .w .user .plane .plane-hid{
+		width: 188px;
+		height: 190px;
+		position: relative;
+
+	}
+	#fs .w .user .plane .plane-hid .plane-move{
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: white;
+		padding-bottom: 20px;
+	}
+	#fs .w .user .plane .plane-hid ul.game{
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	#fs .w .user .plane .plane-hid ul.game li{
+		float: left;
+		padding: 3px 0;
+		border: 1px solid #ccc;
+	}
+	#fs .w .user .plane .plane-hid ul.game li a{
+		display: block;
+		width: 35px;
+		font-size: 13px;
+		text-align: center;
+	}
+	#fs .w .user .plane .plane-hid .plane-move>p{
+		width: 20px;
+		height: 20px;
+		text-align: center;
+		line-height: 20px;
+		font-size: 20px;
+		color: gray;
+		position: absolute;
+		top: 30px;
+		left: 165px;
+		cursor: pointer;
+	}
+	#fs .w .user .plane .plane-hid ul.inland{
+		overflow: hidden;
+		margin-bottom: 10px;
+		margin-left: 5px;
+	}
+	#fs .w .user .plane .plane-hid ul.inland li{
+		float: left;
+		margin:0 5px;
+	}
+
+	
+	#fs .w .user .plane .plane-hid ul.inland li a{
+		display: block;
+		width: 70px;
+		height: 20px;
+		font-size: 13px;
+		text-align: center;
+		line-height: 20px;
+	}
+	#fs .w .user .plane .plane-hid ul.inland li a:hover{
+		color: white;
+		background-color: #e01222;
+	}
+	#fs .w .user .plane .plane-hid>div{
+		overflow: hidden;
+	}
+	#fs .w .user .plane .plane-hid>div a{
+		float: left;
+		margin: 0 5px;
+	}
+
+
+
+	/*对京东秒杀的处理*/
+	#seckill{
+		
+	}
+	

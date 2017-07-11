@@ -1,0 +1,529 @@
+	/*对享品质的处理*/
+	#big{
+	width: 1210px;
+	height: 3000px;
+	/*background-color: gray;*/
+	margin: 100px auto;
+	}
+	#box1{
+		width: 600px;
+		height: 500px;
+		/*background-color: red;*/
+	}
+	#box1 .head{
+		width: 600px;
+		height: 55px;
+		background-color: #9e4075;
+	}
+	#box1 .head p{
+		font-size: 18px;
+		color: white;
+		margin-top: 12px;
+		margin-left: 20px;
+	}
+	#box1 .head>img{
+		width: 20px;
+		height: 20px;
+		margin-top: 15px;
+		margin-left: 20px;
+	}
+	#box1 .head ul{
+		margin-right: 15px;
+
+	}
+	#box1 .head ul li{
+		float: left;
+		margin: 15px 5px 0 5px;
+	}
+	#box1 .head ul li a{
+		display: block;
+		background-color: rgba(255,255,255,0.3);
+		color: white;
+		font-size: 14px;
+		height: 26px;
+		width: 60px;
+		text-align: center;
+		line-height: 26px;
+		border:1px solid rgba(255,255,255,0.3);
+
+	}
+	#box1 .head ul li a:hover{
+		border:1px solid rgb(255,255,255);
+	}
+	#box1 .content ul.fir{
+		width: 400px;
+		height: 130px;
+
+	}
+	#box1 .content ul.fir li{
+		width: 188px;
+		height: 130px;
+		float: left;
+		/*background-color: green;*/
+		overflow: hidden;
+		border: 1px solid #fff;
+	}
+	#box1 .content ul.fir li a p{
+		color: #666;
+		font-size: 14px;
+	}
+	#box1 .content ul.sec{
+
+		margin-top: 8px;
+	}
+
+	#box1 .content ul.sec li{
+		float: left;
+		margin-right: 5px;
+	}
+	#box1 .foot ul{
+		margin-left: 20px;
+	}
+	#box1 .foot ul li{
+		width: 95px;
+		overflow: hidden;
+		margin-top: 3px;
+		float: left;
+	}
+	
+
+
+
+
+
+	#box2{
+		width: 600px;
+		height: 500px;
+		/*background-color: yellow;*/
+	}
+	#box2 .head{
+		width: 600px;
+		height: 55px;
+		background-color:#78538e;
+	}
+	#box2 .head p{
+		font-size: 18px;
+		color: white;
+		margin-top: 12px;
+		margin-left: 20px;
+	}
+	#box2 .head>img{
+		width: 20px;
+		height: 20px;
+		margin-top: 15px;
+		margin-left: 20px;
+	}
+	#box2 .head ul{
+		margin-right: 15px;
+
+	}
+	#box2 .head ul li{
+		float: left;
+		margin: 15px 5px 0 5px;
+	}
+	#box2 .head ul li a{
+		display: block;
+		background-color: rgba(255,255,255,0.3);
+		color: white;
+		font-size: 14px;
+		height: 26px;
+		width: 60px;
+		text-align: center;
+		line-height: 26px;
+		border:1px solid rgba(255,255,255,0.3);
+
+	}
+	#box2 .head ul li a:hover{
+		border:1px solid rgb(255,255,255);
+	}
+	#box2 .content ul.fir{
+		width: 400px;
+		height: 130px;
+
+	}
+	#box2 .content ul.fir li{
+		width: 188px;
+		height: 130px;
+		float: left;
+		/*background-color: green;*/
+		overflow: hidden;
+		border: 1px solid #fff;
+	}
+	#box2 .content ul.fir li a p{
+		color: #666;
+		font-size: 14px;
+	}
+	#box2 .content ul.sec{
+
+		margin-top: 8px;
+	}
+
+	#box2 .content ul.sec li{
+		float: left;
+		margin-right: 5px;
+	}
+	#box2 .foot ul{
+		margin-left: 20px;
+	}
+	#box2 .foot ul li{
+		width: 95px;
+		overflow: hidden;
+		margin-top: 3px;
+		float: left;
+	}
+	
+
+
+	#box3{
+		width: 600px;
+		height: 500px;
+		/*background-color: green;*/
+		margin-top: 30px;
+	}#box3 .head{
+		width: 600px;
+		height: 55px;
+		background-color: #5e6c90;
+	}
+	#box3 .head p{
+		font-size: 18px;
+		color: white;
+		margin-top: 12px;
+		margin-left: 20px;
+	}
+	#box3 .head>img{
+		width: 20px;
+		height: 20px;
+		margin-top: 15px;
+		margin-left: 20px;
+	}
+	#box3 .head ul{
+		margin-right: 15px;
+
+	}
+	#box3 .head ul li{
+		float: left;
+		margin: 15px 5px 0 5px;
+	}
+	#box3 .head ul li a{
+		display: block;
+		background-color: rgba(255,255,255,0.3);
+		color: white;
+		font-size: 14px;
+		height: 26px;
+		width: 60px;
+		text-align: center;
+		line-height: 26px;
+		border:1px solid rgba(255,255,255,0.3);
+
+	}
+	#box3 .head ul li a:hover{
+		border:1px solid rgb(255,255,255);
+	}
+	#box3 .content ul.fir{
+		width: 400px;
+		height: 130px;
+
+	}
+	#box3 .content ul.fir li{
+		width: 188px;
+		height: 130px;
+		float: left;
+		/*background-color: green;*/
+		overflow: hidden;
+		border: 1px solid #fff;
+	}
+	#box3 .content ul.fir li a p{
+		color: #666;
+		font-size: 14px;
+	}
+	#box3 .content ul.sec{
+
+		margin-top: 8px;
+	}
+
+	#box3 .content ul.sec li{
+		float: left;
+		margin-right: 5px;
+	}
+	#box3 .foot ul{
+		margin-left: 20px;
+	}
+	#box3 .foot ul li{
+		width: 95px;
+		overflow: hidden;
+		margin-top: 3px;
+		float: left;
+	}
+	
+
+
+
+	#box4{
+		width: 600px;
+		height: 500px;
+		/*background-color: pink;*/
+		margin-top: 30px;
+	}
+	#box4 .head{
+		width: 600px;
+		height: 55px;
+		background-color: #5e6c90;
+	}
+	#box4 .head p{
+		font-size: 18px;
+		color: white;
+		margin-top: 12px;
+		margin-left: 20px;
+	}
+	#box4 .head>img{
+		width: 20px;
+		height: 20px;
+		margin-top: 15px;
+		margin-left: 20px;
+	}
+	#box4 .head ul{
+		margin-right: 15px;
+
+	}
+	#box4 .head ul li{
+		float: left;
+		margin: 15px 5px 0 5px;
+	}
+	#box4 .head ul li a{
+		display: block;
+		background-color: rgba(255,255,255,0.3);
+		color: white;
+		font-size: 14px;
+		height: 26px;
+		width: 60px;
+		text-align: center;
+		line-height: 26px;
+		border:1px solid rgba(255,255,255,0.3);
+
+	}
+	#box4 .head ul li a:hover{
+		border:1px solid rgb(255,255,255);
+	}
+	#box4 .content ul.fir{
+		width: 400px;
+		height: 130px;
+
+	}
+	#box4 .content ul.fir li{
+		width: 188px;
+		height: 130px;
+		float: left;
+		/*background-color: green;*/
+		overflow: hidden;
+		border: 1px solid #fff;
+	}
+	#box4 .content ul.fir li a p{
+		color: #666;
+		font-size: 14px;
+	}
+	#box4 .content ul.sec{
+
+		margin-top: 8px;
+	}
+
+	#box4 .content ul.sec li{
+		float: left;
+		margin-right: 5px;
+	}
+	#box4 .foot ul{
+		margin-left: 20px;
+	}
+	#box4 .foot ul li{
+		width: 95px;
+		overflow: hidden;
+		margin-top: 3px;
+		float: left;
+	}
+	
+
+
+	#box5{
+		width: 600px;
+		height: 500px;
+		/*background-color: blue;*/
+		margin-top: 30px;
+	}
+	#box5 .head{
+		width: 600px;
+		height: 55px;
+		background-color: #3aaba9;
+	}
+	#box5 .head p{
+		font-size: 18px;
+		color: white;
+		margin-top: 12px;
+		margin-left: 20px;
+	}
+	#box5 .head>img{
+		width: 20px;
+		height: 20px;
+		margin-top: 15px;
+		margin-left: 20px;
+	}
+	#box5 .head ul{
+		margin-right: 15px;
+
+	}
+	#box5 .head ul li{
+		float: left;
+		margin: 15px 5px 0 5px;
+	}
+	#box5 .head ul li a{
+		display: block;
+		background-color: rgba(255,255,255,0.3);
+		color: white;
+		font-size: 14px;
+		height: 26px;
+		width: 60px;
+		text-align: center;
+		line-height: 26px;
+		border:1px solid rgba(255,255,255,0.3);
+
+	}
+	#box5 .head ul li a:hover{
+		border:1px solid rgb(255,255,255);
+	}
+	#box5 .content ul.fir{
+		width: 400px;
+		height: 130px;
+
+	}
+	#box5 .content ul.fir li{
+		width: 188px;
+		height: 130px;
+		float: left;
+		/*background-color: green;*/
+		overflow: hidden;
+		border: 1px solid #fff;
+	}
+	#box5 .content ul.fir li a p{
+		color: #666;
+		font-size: 14px;
+	}
+	#box5 .content ul.sec{
+
+		margin-top: 8px;
+	}
+
+	#box5 .content ul.sec li{
+		float: left;
+		margin-right: 5px;
+	}
+	#box5 .foot ul{
+		margin-left: 20px;
+	}
+	#box5 .foot ul li{
+		width: 95px;
+		overflow: hidden;
+		margin-top: 3px;
+		float: left;
+	}
+	
+
+
+	#box6{
+		width: 600px;
+		height: 500px;
+		/*background-color: red;*/
+		margin-top: 30px;
+	}
+	#box6 .head{
+		width: 600px;
+		height: 55px;
+		background-color: #568e7d;
+	}
+	#box6 .head p{
+		font-size: 18px;
+		color: white;
+		margin-top: 12px;
+		margin-left: 20px;
+	}
+	#box6 .head>img{
+		width: 20px;
+		height: 20px;
+		margin-top: 15px;
+		margin-left: 20px;
+	}
+	#box6 .head ul{
+		margin-right: 15px;
+
+	}
+	#box6 .head ul li{
+		float: left;
+		margin: 15px 5px 0 5px;
+	}
+	#box6 .head ul li a{
+		display: block;
+		background-color: rgba(255,255,255,0.3);
+		color: white;
+		font-size: 14px;
+		height: 26px;
+		width: 60px;
+		text-align: center;
+		line-height: 26px;
+		border:1px solid rgba(255,255,255,0.3);
+
+	}
+	#box6 .head ul li a:hover{
+		border:1px solid rgb(255,255,255);
+	}
+	#box6 .content ul.fir{
+		width: 400px;
+		height: 130px;
+
+	}
+	#box6 .content ul.fir li{
+		width: 188px;
+		height: 130px;
+		float: left;
+		/*background-color: green;*/
+		overflow: hidden;
+		border: 1px solid #fff;
+	}
+	#box6 .content ul.fir li a p{
+		color: #666;
+		font-size: 14px;
+	}
+	#box6 .content ul.sec{
+
+		margin-top: 8px;
+	}
+
+	#box6 .content ul.sec li{
+		float: left;
+		margin-right: 5px;
+	}
+	#box6 .foot ul{
+		margin-left: 20px;
+	}
+	#box6 .foot ul li{
+		width: 95px;
+		overflow: hidden;
+		margin-top: 3px;
+		float: left;
+	}
+	/*对旁边移动条的处理*/
+	#strip{
+		width: 20px;
+		height: 335px;
+		background-color: gray;
+		position: fixed;
+		top: 100px;
+		left: 20px;
+	}
+	#strip ul li{
+		width: 20px;
+		height: 55px;
+		color: white;
+		text-align: center;
+		padding: 8px 0 3px 0;
+		font-size: 15px;
+		border-top: 1px  solid #ccc;
+		cursor: pointer;
+
+	}

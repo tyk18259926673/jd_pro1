@@ -1,0 +1,634 @@
+
+	body{
+		height: 2000px;
+	}
+	/*去除常用元素的内偏距和外偏距*/
+	blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {
+	margin:0;
+	padding:0;
+}
+	ul,ol{
+		list-style: none;
+	}
+	button{
+		cursor: pointer;
+	}
+	a{
+		text-decoration: none;
+		color: #666;
+	}
+	a:hover{
+		color: #c81623;
+	}
+
+	.fl{
+		float: left;
+	}
+	.fr{
+		float: right;
+	}
+	.w{
+		margin:0 auto;
+	    width:1190px
+	}
+
+/*=====================================================================================*/
+	#img-top{
+		background-color: #ffebeb;
+		
+	}
+	#img-top .w{
+		background-color: #ffebeb;
+		text-align: center;
+		position: relative;
+		display: block;
+	}
+	#img-top .w .close{
+		display: block;
+		width: 20px;
+		height: 20px;
+		color: white;
+		font-size: 18px;
+		background-color: #ccc;
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		text-align: center;
+		line-height: 20px;
+	}
+
+
+	/*对导航*/
+	#nav{
+		height: 30px;
+		background-color:#e3e4e5;
+		position: relative;
+		z-index: 1;
+	}
+	#nav .w .place{
+		margin-top: 5px;
+		font-size: 14px;
+		margin-left: 5px;
+	
+	}
+	#nav .w .loc{
+		width: 60px;
+		overflow: hidden;
+		margin-left: 210px;
+		padding-bottom: 5px;
+		position: relative;
+	}
+	
+
+
+	#nav .w .loc p{
+		font-size: 14px;
+		margin-left: 10px;
+		margin-top: 5px;
+		color: #666;
+	}
+	#nav .w ul li{
+		float: left;
+		padding:0 8px;
+		margin-top: 3px;
+		position: relative;
+
+	}
+	#nav .w ul li a{
+		font-size: 14px;
+	}
+
+
+	#nav .w  ul li span{
+		margin-top: 3px;
+		display: block;
+		width: 1px;
+		height: 15px;
+		background-color:#ccc;
+	}
+	#nav .w  ul li .down{
+		background-image: url("../images/icon_sprite.png");
+		width: 12px;
+		height: 7px;
+		background-position: -120px -280px;
+		position: absolute;
+		right: 0;
+		bottom: 5px;
+	}
+	#nav .w  ul li.change{
+		padding: 3px 8px 4px 8px;
+	}
+	#nav .w  ul li.change-my{
+		padding: 3px 8px 4px 8px;
+	}
+	
+
+	/*对头的内容处理*/
+	#header{
+		position: relative;
+		z-index: 1;
+	}
+	#header .w{
+		position: relative;
+		height: 142px;
+	}
+		/*对北京下拉的处理*/
+	#header .w .area{
+		position: absolute;
+		left: 210px;
+		top: 0;
+		z-index: 100;
+		background-color: white;
+		border-width: 0 1px 1px 1px;
+		border-style: solid solid solid solid;
+		border-color: #ccc #ccc #ccc #ccc;
+		display: none;
+	}
+	#header .w .area ul{
+		overflow: hidden;
+		width: 300px;
+		padding: 10px;
+	}
+	#header .w .area ul li{
+		float: left;
+		margin-left: 30px;
+		margin-top: 8px;
+	}
+	#header .w .area ul li:first-child a{
+		background-color: #f10215;
+		color: white;
+	}
+	#header .w .area ul li a{
+		font-size: 13px;
+
+	}
+		/*对我的京东下拉的处理*/
+	#header .w  .my-jd{
+		position: absolute;
+		top: 0;
+		left: 659px;
+		background-color: white;
+		z-index: 200;
+		padding: 15px;
+		border-width: 0 1px 1px 1px;
+		border-style: solid solid solid solid;
+		border-color: #ccc #ccc #ccc #ccc;
+		display: none;
+	}
+	#header .w  .my-jd li{
+		margin-top: 5px;
+	}
+	#header .w  .my-jd .wait{
+		margin-right: 50px;
+	}
+	#header .w  .my-jd .wait li a{
+		font-size: 13px;
+
+	}
+	#header .w  .my-jd .message li a{
+		font-size: 13px;
+
+	}
+
+
+		
+	#header .w .QR img{
+		width: 60px;
+		height: 60px;
+	}
+	#header .w .QR{
+		position: absolute;
+		right: 5px;
+		top: 0;
+	}
+
+	#header .w .logo{
+		position: absolute;
+		top: -30px;
+		left: 0;
+		z-index: 10;
+		/*border:1px solid #ccc; */
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		background-color: white;
+	}
+	#header .w .header-top{
+		
+		position: absolute;
+		top: 0;
+		left: 192px;
+		
+	}
+	#header .w .header-top .search{
+		margin-left: 100px;
+		margin-top: 20px;
+		overflow: hidden;
+	}
+
+	#header .w .header-top .search input{
+		width: 500px;
+		height: 35px;
+		border: 1px solid #f10215;
+	}
+	#header .w .header-top .search img{
+		width: 50px;
+		height: 38px;
+
+	}
+	#header .w .header-top .search .shop{
+		margin-left: 20px;
+		/*border:1px solid #ccc;*/
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		width: 200px;
+		height: 35px;
+	}
+	#header .w .header-top .search .shop .shop-car{
+		background-image: url("../images/jd2015img.png");
+		width: 16px;
+		height: 13px;
+		background-position: -1px -59px;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	#header .w .header-top .search .shop a{
+		color: #f10215;
+		font-size: 14px;
+		margin-top:8px;
+		margin-left: 10px;
+
+	}
+	#header .w .header-top .search .shop p{
+		width: 16px;
+		height: 16px;
+		border-radius: 8px;
+		color: white;
+		font-size: 14px;
+		background-color: #f10215;
+		text-align: center;
+		line-height: 16px;
+		margin-top:8px;
+		margin-left: 10px;
+	}
+	#header .w .header-top ul.max{
+		margin-left:100px;
+		overflow: hidden;
+
+
+	}
+	#header .w .header-top ul.max li{
+		float: left;
+		margin: 5px;
+
+	}
+	#header .w .header-top ul.max li a{
+		font-size: 13px;
+	}
+
+	#header .w .header-top ul.max li.fir a{
+		color: #f10215;
+	}
+
+
+
+	#header .w .header-top ul.kill{
+		margin-top: 25px;
+		margin-left: 30px;
+
+	}
+	#header .w .header-top ul.kill li{
+		float: left;
+		margin: 0 15px;
+
+	}
+	#header .w .header-top ul.kill li a{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+
+	/*列表以及轮播图*/
+	#fs .w{
+		height: 500px;
+		position: relative;
+	}
+		/*对列表的处理*/
+	#fs .w .menu{
+		width: 190px;
+		height: 500px;
+		background-color: #6e6568;
+	}
+	#fs .w .menu >ul{
+		margin-top: 20px;
+		margin-left: 10px;
+	}
+	#fs .w .menu ul li ul{
+		overflow: hidden;
+		margin: 10px 0;
+		padding: 1px;
+	}
+	#fs .w .menu ul li ul li{
+		float: left;
+		color: white;
+		margin:0 2px;
+		font-size: 14px;
+	}
+	#fs .w .menu ul li ul li a{
+		color: white;
+		font-size: 14px;
+	}
+	#fs .w .menu ul li ul li a:hover{
+		color: #c81623;
+	}
+
+		/*对隐藏的内容处理*/
+	#fs .w .content{
+		width: 1000px;
+		overflow: hidden;
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		position: absolute;
+		top: 0;
+		left: 190px;
+		display: none;
+		background-color: white;
+		z-index: 100;
+
+	}
+	#fs .w .content .pop{
+		width: 800px;
+	}
+	#fs .w .content .brand{
+		width: 190px;
+	}
+	#fs .w .content .pop ul {
+		margin-left: 15px;
+	}
+	#fs .w .content .pop ul li{
+		overflow: hidden;
+		margin-top: 15px;
+	}
+	#fs .w .content .pop ul li ul li{
+		float: left;
+
+	}
+	#fs .w .content .pop ul li ul li a{
+		display: block;
+		font-size: 14px;
+		background-color: #6e6568;
+		padding: 3px;
+		color: white;
+		margin-right: 10px;
+		text-align: center;
+	}
+	#fs .w .content .pop ul li ul li a:hover{
+		background-color: #6e6589;
+	}
+	#fs .w .content .pop ul li dl dt{
+		float: left;
+		font-size: 14px;
+		color: black;
+	}
+	#fs .w .content .pop ul li dl dd{
+		float: left;
+		padding: 0	5px;
+	}
+	#fs .w .content .pop ul li dl dd a{
+		font-size: 14px;
+		color: #666;
+	}
+	#fs .w .content .pop ul li dl dd a:hover{
+		color: #c81623;
+	}
+	#fs .w .content .pop ul li dl dd p{
+		display: block;
+		width: 1px;
+		height: 10px;
+		background-color: #999;
+		margin-top: 5px;
+	}
+	#fs .w .content .pop .back{
+		margin-left: 70px;
+	}
+	#fs .w .content .brand{
+		overflow: hidden;
+		margin-top: 15px;
+
+	}
+	#fs .w .content .brand img{
+		margin-top: 5px;
+		margin-right: 5px;
+
+	}
+
+
+
+
+
+
+	/*对底部*/
+	#footer{
+
+	}
+	#footer .w{
+		margin-top: 100px;
+		height: 470px;
+		background-color: #eaeaea;
+		padding-top: 30px;
+	}
+	#footer .w .service{
+		padding-bottom: 30px;
+		border-bottom: 1px solid #dedede;
+	}
+	#footer .w .service ul{
+		overflow: hidden;
+		margin-left: 50px;
+	}
+	#footer .w .service ul li{
+		float: left;
+		margin: 0 30px;
+	}
+	#footer .w .service ul li div{
+		float: left;
+	}
+	#footer .w .service ul li p{
+		float: right;
+		font-size: 18px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+
+	#footer .w .service .more{
+		background-image: url("../images/ico_service.png");
+		width: 36px;
+		height: 42px;
+		background-position: 0 0;
+	}
+	#footer .w .service .quick{
+		background-image: url("../images/ico_service.png");
+		width: 36px;
+		height: 42px;
+		background-position: 0 -43px;
+	}
+	#footer .w .service .good{
+		background-image: url("../images/ico_service.png");
+		width: 36px;
+		height: 42px;
+		background-position: 0 -86px;
+	}
+	#footer .w .service .less{
+		background-image: url("../images/ico_service.png");
+		width: 36px;
+		height: 42px;
+		background-position: 0 -129px;
+	}
+	#footer .w  .help ul{
+		 overflow: hidden;
+		 margin-left: 30px;
+		 margin-top: 20px;
+	}
+	#footer .w  .help ul li{
+		float: left;
+		margin-right: 100px;
+	}
+	#footer .w  .help li.big-map{
+		margin-right: 0px;
+		margin-left: 100px;
+	}
+	#footer .w  .help .map{
+		background-image: url("../images/ico_footer.png");
+		width: 207px;
+		height: 148px;
+		background-position: 0 0;
+		background-repeat: none;
+	}
+	#footer .w  .help .map dl{
+		font-size: 15px;
+
+	}
+	#footer .w  .help .map dd{
+		font-size: 13px;
+		color: #666;
+		margin-top: 8px;
+	}
+	#footer .w  .help ul li dl dt{
+		font-size: 15px;
+	}
+	#footer .w  .help ul li dl dd{
+		font-size: 12px;
+		color: #666;
+		margin-top: 8px;
+	}
+	#footer .w  .about .link {
+		overflow: hidden;
+		margin: 0 auto;
+		margin-top: 30px;
+		width: 1050px;
+	}
+	#footer .w  .about .link a{
+		float: left;
+		font-size: 13px;
+		color: #555;
+		margin: 0 3px;
+
+	}
+	#footer .w  .about .info a{
+		display: block;
+		font-size: 13px;
+		margin: 0 auto;
+		margin-top: 10px;
+		color: #999;
+		text-align: center;
+	}
+	#footer .w  .about .auth{
+		overflow: hidden;
+		margin-top: 10px;
+		margin-left: 250px;
+	}
+	#footer .w  .about .auth a{
+		display: block;
+		float: left;
+
+
+	}
+	#footer .w  .about .auth .icon1{
+		background-image: url("../images/ico_footer.png");
+		width: 100px;
+		height: 29px;
+		background-position: 0 -153px;
+		background-repeat: none;
+	}
+	#footer .w  .about .auth .icon2{
+		background-image: url("../images/ico_footer.png");
+		width: 100px;
+		height: 29px;
+		background-position: -104px -153px;
+		background-repeat: none;
+	}
+	#footer .w  .about .auth .icon3{
+		background-image: url("../images/ico_footer.png");
+		width: 100px;
+		height: 29px;
+		background-position: 0 -185px;
+		background-repeat: none;
+	}
+	#footer .w  .about .auth .icon4{
+		background-image: url("../images/ico_footer.png");
+		width: 100px;
+		height: 29px;
+		background-position: -104px -185px;
+		background-repeat: none;
+	}
+	#footer .w  .about .auth .icon5{
+		background-image: url("../images/ico_footer.png");
+		width: 100px;
+		height: 29px;
+		background-position: 0 -218px;
+		background-repeat: none;
+	}
+	#footer .w  .about .auth .icon6{
+		background-image: url("../images/ico_footer.png");
+		width: 100px;
+		height: 29px;
+		background-position: -103px -219px;
+		background-repeat: none;
+	}
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

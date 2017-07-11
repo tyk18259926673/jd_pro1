@@ -1,0 +1,140 @@
+	/*对发现好货优品专辑排行榜的处理*/
+	#find{
+
+	}
+	#find .w{
+		overflow: hidden;
+		margin-top: 100px;
+
+	}
+	#find .w .goods{
+		width: 390px;
+		margin-right: 10px;
+	}
+	#find .w .goods .goods-top{
+		width: 100%;
+		height: 56px;
+		background-color: #2e828b;
+
+	}
+	#find .w .goods .goods-top>p{
+		font-size: 25px;
+		color: white;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	#find .w .goods .goods-top a{
+		margin-top: 25px;
+		margin-right: 15px;
+	}
+	#find .w .goods .goods-top a p{
+		font-size: 14px;
+		color: white;
+
+	}
+	#find .w .goods .goods-top a div{
+
+	}
+	#find .w .goods ul{
+		overflow: hidden;
+	}
+	#find .w .goods ul li{
+		position: relative;
+		width: 190px;
+		height: 120px;
+		float: left;
+		border: 1px solid #ccc;
+	}
+	#find .w .goods ul li a{
+		display: block;
+		font-size: 14px;
+		color: #4998a1;
+		width: 80px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	#find .w .goods ul li img{
+		position: absolute;
+		top: 30px;
+		right: 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#find .w .super{
+		width: 390px;
+		height: 420px;
+		background-color: green;
+		margin-right: 10px;
+	}
+	#find .w .super .super-top{
+		width: 100%;
+		height: 56px;
+		background-color: #662d72;
+
+	}
+	#find .w .super .super-top>p{
+		font-size: 25px;
+		color: white;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	#find .w .super .super-top a{
+		margin-top: 25px;
+		margin-right: 15px;
+	}
+	#find .w .super .super-top a p{
+		font-size: 14px;
+		color: white;
+
+	}
+	#find .w .super .super-top a div{
+
+	}
+
+
+
+	#find .w .rank{
+		width: 390px;
+		height: 420px;
+		background-color: yellow;
+	}
+	#find .w .rank .rank-top{
+		width: 100%;
+		height: 56px;
+		background-color: #e45d04;
+
+	}
+	#find .w .rank .rank-top>p{
+		font-size: 25px;
+		color: white;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	#find .w .rank .rank-top a{
+		margin-top: 25px;
+		margin-right: 15px;
+	}
+	#find .w .rank .rank-top a p{
+		font-size: 14px;
+		color: white;
+
+	}
+	#find .w .rank .rank-top a div{
+
+	}
+
+
+
+
